@@ -12,6 +12,21 @@
         "GitHub.copilot-chat",
         "ritwickdey.LiveServer"
       ]
+    },
+    "codespaces": {
+      "repositories": {
+        "jan-98/agentic-workflow-3": {
+          "permissions": {
+            "actions": "write",
+            "checks": "write",
+            "contents": "write",
+            "discussions": "write",
+            "issues": "write",
+            "pull_requests": "write",
+            "workflows": "write"
+          }
+        }
+      }
     }
   }
 }
