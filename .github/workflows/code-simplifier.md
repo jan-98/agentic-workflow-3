@@ -14,7 +14,11 @@ network:
   - rust
   - java
 
-permissions: read-all
+permissions:
+  contents: read
+  issues: read
+  pull-requests: read
+  copilot-requests: write
 
 tracker-id: code-simplifier
 
