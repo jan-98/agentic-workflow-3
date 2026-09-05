@@ -53,6 +53,18 @@
               <span aria-hidden="true">&#8594;</span>
             </button>
           </li>
+          <li>
+            <button
+              class="daily-update-trigger"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="september-5-dialog"
+              data-dialog-trigger
+            >
+              <span>5th of September</span>
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </aside>
@@ -221,6 +233,28 @@
           workflows add an AI agent that interprets natural-language Markdown instructions and
           calls configured tools. YAML frontmatter still defines triggers, permissions, the AI
           engine, network access, and safe outputs.
+        </p>
+      </article>
+    </dialog>
+
+    <dialog
+      class="daily-update-dialog"
+      id="september-5-dialog"
+      aria-labelledby="september-5-question"
+      aria-describedby="september-5-answer"
+    >
+      <article class="daily-update-dialog-content">
+        <header class="daily-update-dialog-header">
+          <p>Daily Update / 5th of September</p>
+          <form method="dialog">
+            <button class="dialog-close" type="submit" aria-label="Close dialog" title="Close dialog">
+              <span aria-hidden="true">&#10005;</span>
+            </button>
+          </form>
+        </header>
+        <h2 id="september-5-question">Daily update for 5th of September</h2>
+        <p id="september-5-answer">
+          The daily update workflow ran successfully on 5th of September.
         </p>
       </article>
     </dialog>
